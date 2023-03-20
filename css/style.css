@@ -1726,6 +1726,9 @@ body.os-windows .popup::-webkit-scrollbar-thumb {
   position: absolute;
   top: 48px;
   z-index: 2;
+  background-color: rgba(30, 22, 22, 0.658);
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 .top_panel .menu_wrap {
   width: 1090px;
@@ -3864,6 +3867,7 @@ body.os-windows .popup::-webkit-scrollbar-thumb {
 @media screen and (max-width: 1762px) {
   .top_panel .wrap_float {
     padding: 0 72px;
+    background-color: rgba(0, 0, 0, 0);
   }
   .top_panel .currency {
     left: 0;
