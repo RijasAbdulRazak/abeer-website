@@ -1727,14 +1727,15 @@ body.os-windows .popup::-webkit-scrollbar-thumb {
   top: 48px;
   z-index: 2;
   background-color: rgba(30, 22, 22, 0.658);
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding:0.8rem;
 }
 .top_panel .menu_wrap {
   width: 1090px;
 }
 .top_panel .wrap_float {
   position: relative;
+  display: flex;
+  align-items: center;
 }
 .top_panel .currency {
   width: 48px;
@@ -1914,7 +1915,7 @@ body.os-windows .popup::-webkit-scrollbar-thumb {
 }
 .top_panel .left .logo {
   width: 138px;
-  height: 48px;
+  height: 80px;
   width: auto;
   display: block;
   float: left;
@@ -11861,4 +11862,22 @@ body.os-windows .popup::-webkit-scrollbar-thumb {
     margin-left: -60px;
     top: 20px;
   }
+}
+
+.d-flex{
+  display: flex;
+} 
+.justify-content-center{
+  justify-content: center;
+}
+
+.call-btn{
+  background: #f4b42c;
+  line-height: 50px;
+  color: #fff;
+  border-radius: 8px;
+  width: 150px;
+  text-align: center;
+  padding-left:30px;
+  padding-right:30px;
 }
