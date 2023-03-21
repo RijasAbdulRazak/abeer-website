@@ -3677,6 +3677,7 @@ body.os-windows .popup::-webkit-scrollbar-thumb {
   width: 37%;
   float: right;
   color: rgba(255, 255, 255, 0.53);
+  text-align: end;
 }
 /*----------------------------------------------------------------------------------
 2.11. Socials
@@ -7175,12 +7176,14 @@ body.os-windows .popup::-webkit-scrollbar-thumb {
 .tour_page_head .bottom-info .bottom-info-right {
   max-width: 300px;
   float: right;
+  position: relative;
+  z-index: 2;
 }
 .tour_page_head .bottom-info .bottom-info-right .info {
   margin-bottom: 20px;
 }
 .tour_page_head .bottom-info .bottom-info-right .info .days {
-  color: rgba(255, 255, 255, 0.53);
+  color: #fff;
   font-size: 24px;
   width: auto;
 }
