@@ -496,7 +496,7 @@ body.os-windows::-webkit-scrollbar {
   background-color: #F7F7F7;
 }
 body.os-windows::-webkit-scrollbar-thumb {
-  background-color: #FF3B00;
+  background-color: #a98d3e;
   border-radius: 4px;
 }
 body.os-windows .popup::-webkit-scrollbar {
@@ -504,7 +504,7 @@ body.os-windows .popup::-webkit-scrollbar {
   background-color: #F7F7F7;
 }
 body.os-windows .popup::-webkit-scrollbar-thumb {
-  background-color: #FF3B00;
+  background-color: #a98d3e;
   border-radius: 4px;
 }
 .body-margin.os-windows .top_panel {
@@ -737,7 +737,7 @@ body.os-windows .popup::-webkit-scrollbar-thumb {
 .breadcrumbs {
   font-size: 15px;
   color: rgba(74, 74, 74, 0.58);
-  padding-top: 130px;
+  padding-top: 170px;
   margin-bottom: 42px;
   position: relative;
   z-index: 1;
@@ -11124,6 +11124,7 @@ body.os-windows .popup::-webkit-scrollbar-thumb {
 }
 .about-us-page .statistics {
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 .about-us-page .statistics_item {
   text-align: center;
@@ -11141,7 +11142,7 @@ body.os-windows .popup::-webkit-scrollbar-thumb {
   width: 112px;
   height: 112px;
   border-radius: 50%;
-  background: #FF3B00;
+  background: #f4b42c;
   line-height: 120px;
   display: inline-block;
   float: none;
@@ -11880,4 +11881,22 @@ body.os-windows .popup::-webkit-scrollbar-thumb {
   text-align: center;
   padding-left:30px;
   padding-right:30px;
+}
+
+.bg-overlay {
+  position: absolute; 
+  background: rgba(57, 57, 57, 0.3);
+
+  /* center overlay text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay_1 {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
 }
