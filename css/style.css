@@ -737,7 +737,7 @@ body.os-windows .popup::-webkit-scrollbar-thumb {
 .breadcrumbs {
   font-size: 15px;
   color: rgba(74, 74, 74, 0.58);
-  padding-top: 170px;
+  padding-top: 140px;
   margin-bottom: 42px;
   position: relative;
   z-index: 1;
@@ -1724,7 +1724,7 @@ body.os-windows .popup::-webkit-scrollbar-thumb {
 -----------------------------------------------------------------------------------*/
 .top_panel {
   position: absolute;
-  top: 48px;
+  top: 0px;
   z-index: 2;
   background-color: rgba(30, 22, 22, 0.658);
   padding:0.8rem;
@@ -5071,7 +5071,7 @@ body.os-windows .popup::-webkit-scrollbar-thumb {
     top: -44px;
   }
   .top_panel .left {
-    width: 100%;
+    /* width: 100%; */
     padding-right: 0;
     text-align: center;
   }
@@ -5084,11 +5084,11 @@ body.os-windows .popup::-webkit-scrollbar-thumb {
   .top_panel .mobile_btn {
     position: absolute;
     right: 0;
-    top: 0;
+    /* top: 0; */
   }
   .top_panel .left .logo {
     display: inline-block;
-    float: none;
+    float: left;
   }
   .main_slider .slider_wrap .slide .slide_content .buttons .btn {
     font-size: 19px;
@@ -5239,8 +5239,8 @@ body.os-windows .popup::-webkit-scrollbar-thumb {
     bottom: 22px;
   }
   .top_panel {
-    top: 18px;
-    height: 48px;
+    top: 0px;
+    height: auto;
   }
   .modal_search .close {
     right: 4%;
@@ -11902,4 +11902,10 @@ body.os-windows .popup::-webkit-scrollbar-thumb {
   width: 100%;
   height: 100%;
   padding: 1rem;
+}
+
+@media screen and (max-width: 640px){
+  .call-btn{
+    display: none;
+  }
 }
